@@ -64,7 +64,7 @@ with DAG(
     'weather_data_pipeline',
     default_args=default_args,
     description='A simple weather data pipeline',
-    schedule_interval='*/5 * * * *',
+    schedule_interval='0 0 * * *',
     start_date=datetime(2024, 8, 1),
     catchup=False
 ) as dag:
