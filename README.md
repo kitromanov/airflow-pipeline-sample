@@ -18,5 +18,5 @@ git checkout -b feature/add-dag
 git add .
 git commit -m 'feat: added weather pipeline'
 git remote add origin <YOUR_GIT_REPO_URL>
-git push
+git push --set-upstream origin feature/add-dag
 ```
